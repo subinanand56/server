@@ -17,10 +17,10 @@ app.get("/", (req, res) => {
   res.send("<h1>Welcome</h1>");
 });
 const db = mysql.createConnection({
-  host: "db4free.net",
-  user: "amalkp141",
-  password: "amalkp141",
-  database: "development_test",
+  host: "localhost",
+  user: "newsvari_root",
+  password: "subinanand",
+  database: "newsvari_dasboard_db",
 });
 db.connect((err) => {
   if (err) {
